@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Countries from './Components/Countries/Countries';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Countries></Countries>
     </div>
   );
 }
+
+
+// function Country(props) {
+//   return (
+//     <div>
+//       <h2>Name: {props.name}</h2>
+//       <p>Capital: {props.capital}</p>
+//     </div>
+//   )
+// }
 
 export default App;
